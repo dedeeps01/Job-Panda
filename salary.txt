@@ -1,3 +1,0 @@
-Glassdoor API links: 
-- https://scrapingrobot.com/blog/glassdoor-api/
-- https://www.glassdoor.com/developer/index.htm
