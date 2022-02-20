@@ -1,4 +1,12 @@
 This document is for easy access of links, information, and general resources for easier collaboration 
+NodeJS File upload
+- https://www.geeksforgeeks.org/file-uploading-in-node-js/
+- https://www.w3schools.com/nodejs/nodejs_uploadfiles.asp
+- https://codeforgeek.com/file-uploads-using-node-js/
+- https://www.tutorialkart.com/nodejs/node-js-upload-file-to-server/
+- https://www.bezkoder.com/node-js-express-file-upload/
+- https://medium.com/geekculture/file-upload-and-download-in-node-js-c524a8050c8f
+- 
 
 Glassdoor API links: 
 - https://scrapingrobot.com/blog/glassdoor-api/
@@ -37,4 +45,8 @@ Feel free to remove personal infomtion such as email, home address, company name
     - If getting enough, skip [salary script]
 - Different tech job positions: 
     - Software engineer
-    - 
+
+For extra: 
+- email template to user 
+- copy email 
+- draw mascot 
