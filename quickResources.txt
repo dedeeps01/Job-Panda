@@ -1,0 +1,40 @@
+This document is for easy access of links, information, and general resources for easier collaboration 
+
+Glassdoor API links: 
+- https://scrapingrobot.com/blog/glassdoor-api/
+- https://www.glassdoor.com/developer/index.htm
+Jobanalyzer API:
+- https://developers.payscale.com/jobalyzer/quickstart.html
+CareerOneStop API:
+- https://www.careeronestop.org/Developers/WebAPI/Salaries/get-salary-details.aspx
+Bureau of Labor Statistics:
+- https://www.bls.gov/developers/
+
+Scraping Glassdoor:
+- https://webscreenscrapingservices.medium.com/how-to-scrape-glassdoor-job-data-using-python-lxml-4db3b1da643f
+- https://www.scrapehero.com/how-to-scrape-job-listings-from-glassdoor-using-python-and-lxml/
+- https://pythonawesome.com/python-to-scrape-overview-and-reviews-of-companies-from-glassdoor/
+- https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/
+
+
+
+Salary 
+So you've just received your first job offer, you're excited and want to jump the gun and say yes. 
+Don't! 
+Here are some things you first need to consider. 
+
+Upload your job offer letter here: 
+Feel free to remove personal infomtion such as email, home address, company name etc. 
+
+[upload]
+
+
+- What is your job title?
+- What is the salary that was offered?
+- Is the salary above or below the average for the company/position/location?
+    - If not getting enough, [salary script]
+    - If getting enough, but want more [salary script]
+    - If getting enough, skip [salary script]
+- Different tech job positions: 
+    - Software engineer
+    - 
