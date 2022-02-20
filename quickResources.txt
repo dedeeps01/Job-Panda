@@ -19,7 +19,6 @@ Bureau of Labor Statistics:
 - https://www.bls.gov/developers/
 
 Scraping Glassdoor:
-- https://webscreenscrapingservices.medium.com/how-to-scrape-glassdoor-job-data-using-python-lxml-4db3b1da643f
 - https://www.scrapehero.com/how-to-scrape-job-listings-from-glassdoor-using-python-and-lxml/
 - https://pythonawesome.com/python-to-scrape-overview-and-reviews-of-companies-from-glassdoor/
 - https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/
@@ -50,3 +49,4 @@ For extra:
 - email template to user 
 - copy email 
 - draw mascot 
+- include clost of living data for people who are at the same job, but COL has changed 
