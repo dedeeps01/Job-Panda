@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JobPanda</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,100" rel="stylesheet" type="text/css">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+        <script> 
+        function myFunction() {
+            var elem = document.getElementById("salary");
+            elem.style.visibility = "visible";
+          }
+        </script>
+    </head>
+    <body>
+        <div class="nav">
+            <div class="container">
+                <ul>
+                    <li class="title"><a href="./index.html">JobPanda</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./career.html">Career</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pageheading" id="careerheading">
+            <p>CAREER</p>
+        </div>
+        <div class="pagebody">
+            <div class="upload">
+                <p class="uploadprompt">Begin by uploading a PDF of your job offer! Your personal information will be encrypted and we don't save any of it.</p>
+                <!-- <input type="file" id="fileElem" multiple accept="image/*" style="display:none"> -->
+                <div>
+                    <form enctype = "multipart/form-data">
+                    <input type="file" name="file" id="fileUpload"/>
+                    <br>
+                    <button onclick="myFunction()" id="fileSubmit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="heading">
+                    <p>YOUR SUMMARY</p>
+                </div>
+                <div id="salary">
+                    <div class="yoursalary">
+                        <p class="salary-title">Your Salary</p>
+                        <p class="salary-number">$40000</p>
+                    </div>
+                    <div class="avgsalary">
+                        <p class="salary-title">Average Salary</p>
+                        <p class="salary-number">$50000</p>
+                    </div>
+                    <div class="salarysummary">
+                     <p class="salaryadvice">It looks like your salary offer is lower than what the average is for your position. Try negotiating for more!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li class="footer_left">&copy;JobPanda. All rights reserved.</li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./career.html">Career</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
