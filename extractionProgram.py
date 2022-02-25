@@ -26,6 +26,9 @@ def main():
         print('''Can't continue, no salary data found''')
     jobPosition = findRole(tokenText)
     generateEmail = roleComparison(jobPosition, actualSalary)
+    print(role)
+    print(salary)
+    print(AvgRoleSal)
     if generateEmail:
         generateNegotiation()
         
@@ -133,38 +136,6 @@ def roleComparison(role, sal):
     return lowerSal
 
 def generateNegotiation():
-    emailOpt1= '''Thank you so much for offering me the position as''' '''[Company Name]. 
-    I truly believe I will be a strong asset to your team, and my 10 years of experience in this industry has equipped me with the 
-    skills and knowledge needed to help your company advance to the next level in [industry name].
-    Before I can accept this offer, I wanted to discuss the proposed salary listed in the job offer details 
-    you sent over this [time of day received]. As we had discussed during the interview, I have 
-    [insert the number of years of relevant work or project experience] and also hold a [highest education degree/diploma]. 
-    In my previous role, I [discuss accomplishments in relevant experiences, high impact results, any 
-    accolades]. I believe I have proven my capabilities and produced noteworthy results.
-    With my expertise and proven skill set, I feel that a salary around '''
-    '''is appropriate, which is slightly more than the'''
-    ''' you offered. Which is in line with industry standards 
-    for similar roles. I am confident that my work ethic and expertise will contribute to the increased success of your organization, 
-    and I am excited about the possibility of being part of [Company]. Please let me know when we can further 
-    discuss the salary for this position.
-    Thank you for your time, and I look forward to hearing from you soon.
-    
-    Sincerely,
-    
-    [Your Name]'''
-    emailOpt2 = ''' Thank you for offering me the opportunity to work as''' 
-    emailOpt3 = '''. I am really excited 
-    and cannot wait to resume my responsibilities at [Company Name].
-    Before I accept the offer, however, I would like to state that I was expecting something 
-    between [insert a range]. The reason being [insert a valid reason such as industry standards]. I hope you will consider this request with an open mind.
-    As we had discussed during the interview, I have [insert the number of years of relevant work experience] and also hold a [highest education degree/diploma]. Over the years, I have demonstrated my capabilities by producing notable results. [Talk briefly about some of the accomplishments and unique skills that you possess] Lastly, what I am asking for is in line with the industry standards.
-    I can guarantee that I will be adding a lot of value to the company and am thrilled at the prospects of joining soon. Hope we can come to a mutual agreement on an acceptable salary.
-        
-    Thank you for your valuable time.
-        
-    Regards,
-        
-        [Your Name]'''
     # emailOpt3 = ''
     # possibleEmails = [emailOpt1, emailOpt] 
     print('''Dear Ms./Dr./Mr. [First name] [Last name], \n ''')
